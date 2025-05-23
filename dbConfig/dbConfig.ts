@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 export async function connect() {
     try{
-        mongoose.connect("mongodb+srv://tanyaa:Tanya1518@@cluster0.dfjil.mongodb.net/");
+        mongoose.connect("");
         const connection = mongoose.connection;
 
         connection.on('connected', () => {
